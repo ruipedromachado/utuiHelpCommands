@@ -23,6 +23,9 @@ for (var ext in utui.data.customizations) {
 
 }
 
+// show old js extensions
+utui.config.customizationList[100036].load = "true"
+
 
 /*
  * load rules
@@ -94,6 +97,10 @@ var newTag = {
 utui.automator.addTag(newTag, function (tag_id) {
     w.console.log("tag id: " + tag_id + " migrated.");
 });
+
+
+// show hiden tag
+utui.manage.prepareToAddItem({tag_id : 7117})
 
 // add a static mapping
 newTag.map[index + 1] = {
