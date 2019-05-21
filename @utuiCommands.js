@@ -137,3 +137,13 @@ for (var name in all) {
     }
 }
 utui.define.show();
+
+
+
+/*
+ * privacy manager
+ */
+
+
+utui.privacy_management.util.enableV2()
+utui.privacy_management.util.disableV2()
