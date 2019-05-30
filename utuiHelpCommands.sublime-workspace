@@ -1,0 +1,465 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"update",
+				"updateAudiences"
+			],
+			[
+				"Profi",
+				"ProfileService〔variable〕"
+			],
+			[
+				"is",
+				"isNull"
+			],
+			[
+				"Pro",
+				"ProfileMapper〔variable〕"
+			],
+			[
+				"va",
+				"value"
+			],
+			[
+				"en",
+				"Enums"
+			],
+			[
+				"mo",
+				"model1prop1"
+			],
+			[
+				"to",
+				"toLowerCase"
+			],
+			[
+				"for",
+				"forEach"
+			],
+			[
+				"enum",
+				"enumValue"
+			],
+			[
+				"res",
+				"result"
+			],
+			[
+				"aud",
+				"audiences"
+			],
+			[
+				"em",
+				"empty"
+			],
+			[
+				"st",
+				"style\tTag"
+			],
+			[
+				"games",
+				"GamesAttendanceMapper"
+			],
+			[
+				"isNull",
+				"isNullOrEmptyOrUndefined"
+			],
+			[
+				"u",
+				"ul\tTag"
+			],
+			[
+				"get",
+				"getCustomDescriptions"
+			],
+			[
+				"lo",
+				"losts"
+			],
+			[
+				"di",
+				"div\tTag"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"minimap",
+				"View: Toggle Minimap"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/GitHub/utuiHelpCommands"
+	],
+	"file_history":
+	[
+		"/C/GitHub/dv/tests/integrationtests/processors.nameupdate.process.integration.spec.js",
+		"/C/GitHub/dv/tests/integrationtests/processors.gamesplayed.process.integration.spec.js",
+		"/C/GitHub/dv/tests/integrationtests/processors.gamesattendance.process.integration.spec.js",
+		"/C/GitHub/dv/services/gamesplayed.js",
+		"/C/GitHub/dv/processors/gamesplayed.js",
+		"/C/GitHub/dv/processors/gamesattendance.js",
+		"/C/GitHub/dv/mappers/gamesplayed.js",
+		"/C/GitHub/dv/mappers/gamesattendance.js",
+		"/C/GitHub/dv/package.json",
+		"/C/GitHub/dv/runTestsOnWindows.bat",
+		"/C/GitHub/dv/enums/enums.js",
+		"/C/GitHub/dv/enums/eventtypes.js",
+		"/C/GitHub/dv/processors/nameupdate.js",
+		"/C/GitHub/dv/processors/registration.js",
+		"/C/GitHub/dv/persistent/gamesplayed.js",
+		"/C/GitHub/dv/persistent/gamesattendance.js",
+		"/C/GitHub/dv/api/gamesplayed.js",
+		"/C/GitHub/dv/tests/integrationtests/processors.registration.process.integration.spec.js",
+		"/C/GitHub/dv/tests/integrationtests/processors.result.process.integration.spec.js",
+		"/C/GitHub/dv/persistent/profile.js",
+		"/C/GitHub/dv/services/profile.js",
+		"/C/GitHub/dv/processors/result.js",
+		"/C/GitHub/dv/processors/score.js",
+		"/C/GitHub/dv/api/result.js",
+		"/C/GitHub/dv/app.js",
+		"/C/GitHub/dv/dbconnect.js",
+		"/C/GitHub/dv/runTestsDebugger.bat",
+		"/C/GitHub/dv/tests/integrationtests/processors.badges.process.integration.spec.js",
+		"/C/GitHub/dv/tests/integrationtests/processors.score.process.integration.spec.js",
+		"/C/GitHub/dv/tests/unittests/extensions.enums.getindex.unit.spec.js",
+		"/C/GitHub/dv/tests/unittests/extensions.enums.tostring.unit.spec.js",
+		"/C/GitHub/dv/tests/unittests/extensions.types.capitalisephrase.unit.spec.js",
+		"/C/GitHub/dv/tests/unittests/services.models.merge.unit.spec.js",
+		"/C/GitHub/dv/tests/unittests/services.gamesattendance.isaudiencevalid.unit.spec.js",
+		"/C/GitHub/dv/tests/unittests/extensions.types.isnulloremptyorundefined.unit.spec.js",
+		"/C/GitHub/dv/tests/unittests/extensions.types.capitaliseword.unit.spec.js",
+		"/C/GitHub/dv/api/score.js",
+		"/C/GitHub/dv/api/nameupdate.js",
+		"/C/GitHub/dv/api/profile.js",
+		"/C/GitHub/dv/services/queue.js",
+		"/C/GitHub/dv/persistent/queue.js",
+		"/C/GitHub/dv/api/queue.js",
+		"/C/GitHub/dv/processors/profile.js",
+		"/C/GitHub/dv/api/gamesattendance.js",
+		"/C/GitHub/dv/services/score.js",
+		"/C/GitHub/dv/services/result.js",
+		"/C/GitHub/dv/processors/badge.js",
+		"/C/GitHub/dv/api/badges.js",
+		"/C/GitHub/dv/extensions/types.js",
+		"/C/GitHub/dv/validators/badges.js",
+		"/C/GitHub/dv/mappers/badge.js",
+		"/C/Users/ruimachado/AppData/Roaming/Sublime Text 3/Packages/Package Control/Package Control.sublime-settings",
+		"/C/Users/ruimachado/AppData/Roaming/Sublime Text 3/Packages/JSLint/JSLint.sublime-settings",
+		"/C/GitHub/dv/lunch_debug.cmd",
+		"/C/GitHub/dv/lunch_app.cmd",
+		"/C/GitHub/dv/TODO",
+		"/C/GitHub/dv/lunch_debug",
+		"/C/GitHub/dv/tests/runTestsOnWindows.bat",
+		"/C/Users/ruimachado/AppData/Roaming/Sublime Text 3/Packages/User/SideBarEnhancements/Open With/Side Bar.sublime-menu",
+		"/C/GitHub/dv/mappers/queue.js",
+		"/C/GitHub/dv/validators/fgdfg",
+		"/C/GitHub/dv/dv.sublime-project",
+		"/C/GitHub/dv/dv.sublime-workspace",
+		"/C/GitHub/github.sublime-project",
+		"/C/GitHub/github.sublime-workspace",
+		"/C/GitHub/dv/api/goals.js",
+		"/C/GitHub/dv/services/gamesattendance.js",
+		"/C/GitHub/dv/services/model.js",
+		"/C/GitHub/dv/validators/gamesattendance.js",
+		"/C/GitHub/dv/api/registration.js",
+		"/C/GitHub/dv/builders/queueevent.js",
+		"/C/GitHub/dv/builders/queue.js",
+		"/C/Users/ruimachado/AppData/Roaming/Sublime Text 3/Packages/Terminal/Terminal.sublime-settings",
+		"/C/GitHub/dv/services/registration.js",
+		"/C/GitHub/dv/services/badge.js",
+		"/C/GitHub/dv/builders/badge.js",
+		"/C/GitHub/dv/models/profile.js",
+		"/C/GitHub/dv/notes",
+		"/C/GitHub/dv/processors/badges.js",
+		"/C/GitHub/dv/tests/integrationtests/extensions.types.capitalisephrase.integration.spec.js",
+		"/C/GitHub/dv/tests/unittests/services.models.merge.spec.js",
+		"/C/GitHub/dv/tests/unittests/services.gamesattendance.isaudiencevalid.spec.js",
+		"/C/GitHub/dv/tests/unittests/extensions.enums.tostring.spec.js",
+		"/C/GitHub/dv/tests/unittests/extensions.enums.getindex.spec.js",
+		"/C/GitHub/dv/tests/integrationtests/extensions.types.capitalisephrase.spec.js",
+		"/C/GitHub/dv/validators/goals.js",
+		"/C/GitHub/dv/mappers/goal.js",
+		"/C/GitHub/dv/unittests/extensions.types.capitalisephrase.spec.js",
+		"/C/GitHub/dv/unittests/extensions.enums.tostring.spec.js",
+		"/C/GitHub/dv/unittests/runTestsOnWindows.bat",
+		"/C/GitHub/dv/test/mocha.opts",
+		"/C/GitHub/dv/test/extensions.types.capitalisephrase.spec.js",
+		"/C/GitHub/dv/test/extensions.enums.tostring.spec.js",
+		"/C/GitHub/dv/test/services.models.merge.spec.js",
+		"/C/GitHub/dv/test/services.gamesattendance.isaudiencevalid.spec.js",
+		"/C/GitHub/dv/test/extensions.enums.getindex.spec.js",
+		"/C/GitHub/dv/test/runTestsOnWindows.bat",
+		"/C/GitHub/dv/test/runTests.bat",
+		"/C/GitHub/dv/test/services.mergeModels.spec.js",
+		"/C/GitHub/dv/extensions/enums.js",
+		"/C/GitHub/dv/api/topscorers.js",
+		"/C/GitHub/dv/mappers/profile.js",
+		"/C/GitHub/dv/mappers/result.js",
+		"/C/GitHub/dv/enums/gametypes.js",
+		"/C/GitHub/dv/test/mergeModels.spec.js",
+		"/C/GitHub/dv/tests/mergeModels.spec.js",
+		"/C/GitHub/dv/tests/runTests.bat",
+		"/C/GitHub/dv/tests/@runTests.cmd",
+		"/C/GitHub/dv/public/client.js",
+		"/C/GitHub/dv/public/client.html",
+		"/C/GitHub/dv/mappers/registration.js",
+		"/C/GitHub/dv/public/stats.js",
+		"/C/GitHub/dv/public/stats.html",
+		"/C/GitHub/dv/validators/registration.js",
+		"/C/GitHub/dv/validators/result.js",
+		"/C/GitHub/dv/validators/profile.js",
+		"/C/GitHub/dv/validators/gamesplayed.js",
+		"/C/GitHub/dv/services/profileservice.js",
+		"/C/GitHub/dv/extensions/typeextensions.js",
+		"/C/GitHub/dv/services/modelservice.js",
+		"/C/GitHub/dv/services/queueservice.js",
+		"/C/GitHub/dv/services/typeextensions.js",
+		"/C/GitHub/dv/services/gamesservice.js",
+		"/C/GitHub/dv/validators/gamesAttendance.js",
+		"/C/GitHub/dv/persistent/profilePersistent.js",
+		"/C/GitHub/notes/as",
+		"/C/GitHub/dv/persistent/gamesplayedPersistent.js",
+		"/C/GitHub/dv/persistent/gamesattendancePersistent.js"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 125.6,
+		"where_history":
+		[
+			"",
+			"C:\\GitHub\\dv, -*/node_modules/*",
+			"/Users/ruimachado/gitClones/dv, -*/node_modules/*",
+			"C:\\GitHub\\dv, -*/node_modules/*"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"../enums",
+			"[3]",
+			"\"../enums",
+			"normali",
+			"toLowerCasePropertyList",
+			"normali",
+			"view",
+			"ProfileValidator",
+			"../validators/pro",
+			"Enums",
+			"QueueMapper",
+			"findOneAndUpdate",
+			"isarray",
+			"array",
+			"norma",
+			"isBadgeAssign",
+			"gamesaudiences",
+			"require(\"../validators/",
+			"require(\"../enums/enums\");",
+			"queuePersistent",
+			"profilePersistent",
+			"gamesattendance",
+			"gamesplayedPersistent",
+			"gamesattendancePersistent",
+			"profileservice",
+			"typeextensions",
+			"console.log(",
+			"w.console.log(\"fail adding \" + a);",
+			"console.log",
+			"getLinkLocation =",
+			"getLinkName =",
+			"trackStayInformedSubmit =",
+			"setAdditionalLinkVars =",
+			"setStandardLinkVars =",
+			"trackSearchResultsClick =",
+			"isDownloadFile =",
+			"valid =",
+			"valid",
+			"trackCustomExitLink",
+			"trackCustomDownload",
+			"setAdditionalLinkVars",
+			"setStandardLinkVars",
+			"setAdditionalLinkVars",
+			"getSiteName",
+			"trackCustomDownload",
+			"setAdditionalLinkVars",
+			"delete",
+			"enum",
+			"required",
+			"title",
+			"Queue",
+			"game_name",
+			"score_position",
+			"padding-left-10",
+			"f.",
+			"document"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 48.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 207.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 168.0
+	},
+	"output.mdpopups":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "utuiHelpCommands.sublime-project",
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 568.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
