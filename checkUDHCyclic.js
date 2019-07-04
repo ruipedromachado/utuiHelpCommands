@@ -1,0 +1,1 @@
+gApp.utils.debug.checkForTransformationCycle(true)
