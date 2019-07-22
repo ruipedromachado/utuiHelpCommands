@@ -137,3 +137,10 @@ for (var name in all) {
     }
 }
 utui.define.show();
+
+
+// find implemented tag template ID
+utui.data.manage[1].tag_id
+
+// make template id available on the market
+utui.config.manageList[7117].load
