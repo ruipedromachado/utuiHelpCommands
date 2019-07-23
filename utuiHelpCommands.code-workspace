@@ -13,6 +13,6 @@
 		"workbench.editor.enablePreviewFromQuickOpen": false,
 		"workbench.list.openMode": "doubleClick",
 		"workbench.sideBar.location": "right",
-		"window.zoomLevel": 0.5
+		"window.zoomLevel": 2
 	}
 }
