@@ -4,7 +4,7 @@
 // @require       http://code.jquery.com/jquery-2.1.1.min.js
 // @require       https://code.jquery.com/ui/1.11.2/jquery-ui.js
 // @run-at        document-end
-// @version       1
+// @version       1.5
 // @author        Rui
 // @description   Addons to TealiumUDH
 // @include       *.tealiumiq.com/datacloud*
@@ -33,15 +33,16 @@
     var htmlHandler = function() {
         w.jQuery('.accordionHeader.selected').parent().find(".actionBlock").each(function(index) {
             if (!w.jQuery('.accordionHeader.selected').parent().find('[id^="duplicateAction' + index + '"]').length) {
-                var element;
+                var editButtonClass;
                 if (w.jQuery(this).find('.priority').text().trim() != "") {
-                    element = ".linkedTransformationTitle";
+                    editButtonClass = ".linkedTransformationTitle";
                     w.jQuery(this).find('.priority').css('margin-left', "auto");
                     w.jQuery(this).find('.editAction').css('margin-left', "auto");
-                } else if (jQuery(this).find('.priority').text().trim() == "") {
-                    element = ".editAction";
+                } else if (w.jQuery(this).find('.priority').text().trim() == "") {
+                    editButtonClass = ".editAction";
                 }
-                if(element) {
+                var editButton = w.jQuery(this).find(editButtonClass);
+                if(editButton) {
                     var copyActionElementId = "duplicateAction" + index;
                     var copyActionHtmlElement = '<div><i class="fas fa-copy mr-1"></i>Duplicate</div>';
                     var actionId = w.jQuery(this).data("action");
@@ -53,13 +54,17 @@
                         .addClass("btn-default")
                         .css('margin-left', '-97px')
                         .css('font-weight', '700')
-                        .insertBefore(w.jQuery(this).find(element))
-                        .click(function() { copyConnAction(actionId); });
+                        .insertBefore(editButton)
+                        .click(function() { 
+                            copyConnAction(actionId); 
+                            w.jQuery("html, body").animate({ scrollTop: w.jQuery(document).height() }, "slow");
+                            return false; 
+                        });
                     }
                 }
             }
         });
-        w.setTimeout(htmlHandler, 500);
+        w.setTimeout(htmlHandler, 1000);
     };
 
     var init = function() {
