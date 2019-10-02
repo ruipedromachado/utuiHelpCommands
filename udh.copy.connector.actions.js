@@ -4,7 +4,8 @@
 // @require       http://code.jquery.com/jquery-2.1.1.min.js
 // @require       https://code.jquery.com/ui/1.11.2/jquery-ui.js
 // @run-at        document-end
-// @version       5.1.1
+// @version       1
+// @author        Rui
 // @description   Addons to TealiumUDH
 // @include       *.tealiumiq.com/datacloud*
 // @updateURL     https://solutions.tealium.net/hosted/tampermonkey/newUI/udh.copy.connector.actions.js
