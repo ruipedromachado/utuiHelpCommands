@@ -8,7 +8,7 @@
 // @author        Rui
 // @description   Addons to TealiumUDH
 // @include       *.tealiumiq.com/datacloud*
-// @updateURL     https://solutions.tealium.net/hosted/tampermonkey/newUI/udh.copy.connector.actions.js
+// @updateURL     https://solutions.tealium.net/hosted/tampermonkey/newUI/udh.copy.connector.actions.user.js
 // ==/UserScript==
 
 (function(w) {
