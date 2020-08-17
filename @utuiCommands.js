@@ -27,6 +27,26 @@ for (var ext in utui.data.customizations) {
 utui.config.customizationList[100036].load = "true"
 
 
+// update extension code editor
+// check customizations_template.container for the extension ID
+utui.customizations_template[100036].aceEditor.code.setValue("hello world")
+
+// add new change entry to the system
+const id = 35;
+utui.profile.setActionPerformed({
+        action: utui.constants.extensions.UPDATED,
+        data: {
+            id: id,
+            name: utui.data.customizations[id].title,
+            type: utui.data.customizations[id].id,
+            kind: utui.constants.extensions.TYPE,
+            operation: utui.constants.operation.UPDATED,
+            container: "customizations_" + utui.data.customizations[id]["_id"]
+        }
+    },
+    true
+);
+
 /*
  * load rules
  */
@@ -144,3 +164,5 @@ utui.data.manage[1].tag_id
 
 // make template id available on the market
 utui.config.manageList[7117].load
+
+
